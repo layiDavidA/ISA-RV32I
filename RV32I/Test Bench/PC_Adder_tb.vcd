@@ -1,0 +1,47 @@
+$date
+	Sat Jul  5 20:48:58 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module PC_Adder_tb $end
+$var wire 32 ! c [31:0] $end
+$var reg 32 " a [31:0] $end
+$var reg 32 # b [31:0] $end
+$scope module uut $end
+$var wire 32 $ a [31:0] $end
+$var wire 32 % b [31:0] $end
+$var wire 32 & c [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#20
+b10 #
+b10 %
+b100 !
+b100 &
+b10 "
+b10 $
+#40
+b1001 #
+b1001 %
+b10001 !
+b10001 &
+b1000 "
+b1000 $
+#60

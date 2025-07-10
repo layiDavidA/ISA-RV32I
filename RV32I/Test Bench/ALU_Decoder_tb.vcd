@@ -1,0 +1,67 @@
+$date
+	Wed Jul  2 21:42:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ALU_Decoder_tb $end
+$var wire 3 ! ALUControl [2:0] $end
+$var reg 2 " ALUOp [1:0] $end
+$var reg 3 # funct3 [2:0] $end
+$var reg 7 $ funct7 [6:0] $end
+$var reg 7 % op [6:0] $end
+$scope module uut $end
+$var wire 2 & ALUOp [1:0] $end
+$var wire 3 ' funct3 [2:0] $end
+$var wire 7 ( funct7 [6:0] $end
+$var wire 7 ) op [6:0] $end
+$var wire 3 * ALUControl [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+b11 )
+b0 (
+b0 '
+b0 &
+b11 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#20
+b1 !
+b1 *
+b1100011 %
+b1100011 )
+b1 "
+b1 &
+#40
+b0 !
+b0 *
+b110011 %
+b110011 )
+b10 "
+b10 &
+#60
+b1 !
+b1 *
+b100000 $
+b100000 (
+#80
+b10 !
+b10 *
+b0 $
+b0 (
+b111 #
+b111 '
+#100
